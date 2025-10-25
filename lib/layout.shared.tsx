@@ -4,7 +4,7 @@ import { HomeIcon, BookIcon } from 'lucide-react';
 export function baseOptions(): BaseLayoutProps {
   return {
     nav: {
-      title: 'My App',
+      title: 'Epicentral Labs',
     },
     links: [
       {
