@@ -1,10 +1,12 @@
 {
-  "name": "example-next-mdx",
-  "version": "0.0.0",
+  "name": "epicentral-docs-v2",
+  "version": "2.0.0",
   "private": true,
+"author": "Epicentral Labs",
+"license": "Apache-2.0",
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "start": "next start",
     "postinstall": "fumadocs-mdx",
     "lint": "eslint"
