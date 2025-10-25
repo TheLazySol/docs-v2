@@ -2,8 +2,8 @@
   "name": "epicentral-docs-v2",
   "version": "2.0.0",
   "private": true,
-"author": "Epicentral Labs",
-"license": "Apache-2.0",
+  "author": "Epicentral Labs",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
@@ -16,10 +16,13 @@
     "fumadocs-core": "16.0.3",
     "fumadocs-mdx": "13.0.1",
     "fumadocs-ui": "16.0.3",
+    "katex": "^0.16.25",
     "lucide-react": "^0.546.0",
     "next": "16.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0",
     "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
